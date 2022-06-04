@@ -1,23 +1,27 @@
-html{
+html {
     height: 100%;
 }
-body{
+
+body {
     height: 100%;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 /* section1 */
-.wrapper{
+.wrapper {
     width: 1170px;
     height: 100%;
     position: relative;
 }
-.main_page{
+
+.main_page {
     background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
     height: 100%;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
-header{
+
+header {
     margin-top: 32px;
     margin-bottom: 56px;
     display: flex;
@@ -25,21 +29,24 @@ header{
     top: 0;
     left: 0;
 }
-.logo_text{
+
+.logo_text {
     margin-left: 16px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     display: flex;
-    align-items: center;  
+    align-items: center;
     color: #010101;
 }
-.bg_container{
+
+.bg_container {
     background: #FFFFFF;
     padding: 60px 56px;
     align-self: center;
 }
+
 .bg_dodrogo {
     font-style: normal;
     font-weight: 600;
@@ -48,15 +55,16 @@ header{
     color: #212528;
     margin-bottom: 16px;
 }
-    
-.bg_nastart{
+
+.bg_nastart {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
     color: #FF6B0A;
-    margin-bottom: 48px;   
+    margin-bottom: 48px;
 }
+
 .bg_title {
     font-style: normal;
     font-weight: 600;
@@ -67,7 +75,8 @@ header{
     color: #212528;
     margin-bottom: 24px;
 }
-.bg_text{
+
+.bg_text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -75,7 +84,8 @@ header{
     color: #212528;
     margin-bottom: 48px;
 }
-.bg_launch{
+
+.bg_launch {
     background: #FF6B0A;
     border-radius: 8px;
     padding: 12px 24px;
@@ -86,22 +96,26 @@ header{
     color: #FFFFFF;
     cursor: pointer;
 }
-.mainBGrow{
+
+.mainBGrow {
     display: flex;
     justify-content: space-between;
     height: 100%;
 }
-.BGimage{
+
+.BGimage {
     align-self: flex-end;
 }
+
 /* section2 */
-.gusfacts{
+.gusfacts {
     padding: 52px 95px 48px 95px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.gustitle{
+
+.gustitle {
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -111,25 +125,29 @@ header{
     color: #212528;
     margin: 16px 0;
 }
-.gustext{
+
+.gustext {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px; 
+    line-height: 24px;
     text-align: center;
     color: #212528;
     width: 875px;
     margin-bottom: 24px;
 }
-.gusfacts_container{
+
+.gusfacts_container {
     width: 1170px;
     display: flex;
     justify-content: space-between;
 }
-.gusfact_item{
+
+.gusfact_item {
     width: 33%;
 }
-.gusfact_title{
+
+.gusfact_title {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -139,7 +157,8 @@ header{
     color: #212528;
     margin: 12px 0 32px 0;
 }
-.gusfact_descr{
+
+.gusfact_descr {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -147,12 +166,14 @@ header{
     color: #212528;
     width: 280px;
 }
+
 /* footer */
-.victory_footer{
+.victory_footer {
     display: flex;
     justify-content: center;
 }
-.victory_BGRD{
+
+.victory_BGRD {
     background: linear-gradient(270deg, #CBECFF 0%, #FFFFFF 100%);
     width: 1170px;
     padding: 72px 0;
@@ -161,7 +182,8 @@ header{
     flex-direction: column;
     align-items: center;
 }
-.victory_title{
+
+.victory_title {
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -171,7 +193,8 @@ header{
     color: #FF6B0A;
     margin: 16px 0;
 }
-.victory_descr{
+
+.victory_descr {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -180,8 +203,9 @@ header{
     color: #212528;
     width: 875px;
 }
+
 /* modalwindow */
-.modalwindow{
+.modalwindow {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -193,34 +217,38 @@ header{
     justify-content: center;
     text-align: center;
     opacity: 0;
-    pointer-events: none; 
-    transition: all 0.3s;  
+    pointer-events: none;
+    transition: all 0.3s;
 }
-.modal-form{
+
+.modal-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
-.modal-form-container{
+
+.modal-form-container {
     background: #FFFFFF;
     padding: 34px 93px 60px 93px;
     position: relative;
 }
-.modalformtitle{
+
+.modalformtitle {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 24px;  
+    line-height: 24px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     color: #212528;
     margin-bottom: 12px;
     margin-top: 32px;
 }
-.modalformdescr{
+
+.modalformdescr {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -228,12 +256,14 @@ header{
     color: #212528;
     margin-bottom: 24px;
 }
-.modalformfield{
+
+.modalformfield {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-.modalfieldname{
+
+.modalfieldname {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -242,7 +272,8 @@ header{
     margin-bottom: 8px;
     text-align: left;
 }
-.modalfieldinput{
+
+.modalfieldinput {
     width: 374px;
     height: 48px;
     left: 493px;
@@ -258,7 +289,8 @@ header{
     font-size: 16px;
     color: #212528;
 }
-.modalformbutton{
+
+.modalformbutton {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -278,7 +310,8 @@ header{
     border-radius: 8px;
     margin-top: 24px;
 }
-.close-btn{
+
+.close-btn {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -289,7 +322,7 @@ header{
     background: none;
 }
 
-.modalformdyak{
+.modalformdyak {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -299,9 +332,11 @@ header{
     align-items: center;
     text-align: center;
     color: #212528;
-    margin-top: 40px; margin-bottom: 48px;
+    margin-top: 40px;
+    margin-bottom: 48px;
 }
-.modalformdslava{
+
+.modalformdslava {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -310,7 +345,8 @@ header{
     color: #FF6B0A;
     margin-bottom: 66px;
 }
+
 .modal-active {
     opacity: 1;
-    pointer-events: all; 
+    pointer-events: all;
 }
